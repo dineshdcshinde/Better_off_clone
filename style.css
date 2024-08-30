@@ -1,0 +1,129 @@
+*,*::after,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #e5e7df;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 2%;
+}
+
+nav > h1 {
+    padding-left: 1.2rem;
+}
+
+
+nav > .logo {
+    font-size: 30px;
+}
+
+nav > .nav-last {
+    padding-right: 1.2rem;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;  
+}
+
+nav ul li {
+    font-size: 1.3rem;
+    font-weight: 800;
+    border: none;
+    border: 1px solid transparent;
+    transition: all 0.75s;
+
+    &:hover {
+        border-bottom: 2px solid black;
+        transform: scale(1.1);
+        cursor: pointer;
+
+    }
+}
+
+.page1 {
+    width: 100%;
+}
+
+.container {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container > .left {
+    padding-left: 16px;
+    width: 40%;
+    font-size: 1.3rem;
+    margin-top: 9%;
+    line-height: 1.4;
+}
+
+.container > .left > button {
+    margin-top: 10%;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.container > .left > button > .arrow{
+    margin-left: 40px;
+}
+
+
+.container > .right {
+    width: 60%;
+    max-width: 800px;
+    margin-top: 8%;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.page1  marquee {
+    font-size: 20rem;
+}
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page2 > h1 {
+    font-size: 3rem;
+    width: 70vw;
+    padding-left: 16px;
+    font-weight: 500;
+    line-height: 1.07;
+}
+
+.page2 .margin{
+    margin-bottom: 7%;
+}
+
+.page2 > hr {
+    margin-top: 6%;
+    height: 2px;
+    color: rgb(30, 30, 30);
+}
