@@ -1,0 +1,50 @@
+/* Media Queries for better off clone */
+
+/* nav bar */
+
+nav > i{
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:600px) {
+   /* Nav icon */
+   nav > i{
+    display: initial;
+   }
+
+   nav > ul {
+    display: none;
+   }
+
+   nav > .nav-last{
+    display: none;
+   }
+
+   /* page1 */
+
+   .page1 .container .left,
+   .page1 .container .right{
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+   }
+
+   .crossal{
+    width: 100%;
+    font-size: 20rem;
+    font-weight: 900;
+   }
+
+    /* Page2 */
+   .page2 > h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+
+
+}
