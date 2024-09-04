@@ -229,13 +229,11 @@ nav ul li {
 }
 
 .page4 > .highlight{
+    position: relative;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-    overflow-x: hidden;
-    position: relative;
-
-    
+    overflow-x: auto;
 }
 
 .page4 .highlight > .hgt-work{

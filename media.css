@@ -82,6 +82,71 @@ nav > i {
     word-spacing: 2px;
  }
 
- 
+ /* Page 4 */
+
+ .page4{
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+ }
+
+ .nav > div{
+    padding: 3%;
+    font-size: 1.6rem;
+    font-weight: 400;
+ }
+ .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+
+ /* page4 content */
+
+ .highlight{
+    overflow-x: inherit;
+    overflow-y: auto;
+    white-space: nowrap;
+ }
+
+ .highlight .hgt-work {
+    font-size: 3rem;
+ }
+
+ .hightlight .hgt-work> video{
+    height: auto;
+    width: auto;
+ }
+
+ .highlight .video-des{
+    display: none;
+ }
+    /* Scroll bar */
+
+ ::-webkit-scrollbar {
+    width: 20px;
+  }
   
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #674188; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E2BFD9; 
+  }
+
+
+
+
 }
+  
+
